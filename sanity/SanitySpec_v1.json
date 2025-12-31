@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "title": "Content Judgment Calibrator \u2013 Sanity Specification",
+  "description": "Machine-readable evaluation rules for auditing synthetic content judgment cases.",
+  "checks": [
+    {
+      "check_id": "structural_integrity",
+      "question": "Does the case conform to the required schema and enums?",
+      "expected_behavior": "All required fields present; enum values strictly respected.",
+      "failure_modes": [
+        "Missing required fields",
+        "Invalid enum values",
+        "Non-unique case_id"
+      ],
+      "severity": "high"
+    },
+    {
+      "check_id": "coverage_diversity",
+      "question": "Does the dataset exhibit sufficient diversity of intent and persuasion types?",
+      "expected_behavior": "Balanced presence of neutral, persuasive, and mixed-intent cases.",
+      "failure_modes": [
+        "Overrepresentation of a single persuasion technique",
+        "Lack of mixed-intent cases"
+      ],
+      "severity": "medium"
+    },
+    {
+      "check_id": "risk_calibration",
+      "question": "Is ethical_risk_level proportional to the persuasion techniques used?",
+      "expected_behavior": "High risk reserved for identity, moral pressure, inevitability, or urgency framing.",
+      "failure_modes": [
+        "High risk assigned to neutral framing",
+        "Medium used as a catch-all"
+      ],
+      "severity": "high"
+    },
+    {
+      "check_id": "intent_alignment",
+      "question": "Does the stated intent explain context without excusing persuasive influence?",
+      "expected_behavior": "Intent clarifies purpose without justifying weak credibility.",
+      "failure_modes": [
+        "Intent used to excuse misleading framing",
+        "Perfect alignment in all cases (no tension)"
+      ],
+      "severity": "medium"
+    },
+    {
+      "check_id": "rationale_quality",
+      "question": "Is the model-facing rationale descriptive and non-prescriptive?",
+      "expected_behavior": "Rationales explain mechanisms without verdicts or corrections.",
+      "failure_modes": [
+        "Use of directive language (should/must)",
+        "Moralizing or corrective tone"
+      ],
+      "severity": "high"
+    },
+    {
+      "check_id": "language_consistency",
+      "question": "Is tone and terminology consistent across cases?",
+      "expected_behavior": "Calm, editorial tone with consistent vocabulary.",
+      "failure_modes": [
+        "Mixed academic and conversational tones",
+        "Inconsistent judgment vocabulary"
+      ],
+      "severity": "low"
+    },
+    {
+      "check_id": "signature_presence",
+      "question": "Do signature cases exhibit non-obvious, high-judgment ambiguity?",
+      "expected_behavior": "Signature cases invite interpretation without obvious verdicts.",
+      "failure_modes": [
+        "Signature cases are trivial",
+        "No discernible distinction from regular cases"
+      ],
+      "severity": "medium"
+    },
+    {
+      "check_id": "negative_capability",
+      "question": "Does the dataset allow ambiguity without over-flagging?",
+      "expected_behavior": "Some cases tolerate uncertainty and restraint.",
+      "failure_modes": [
+        "Every case fully resolved",
+        "Over-explanation of simple content"
+      ],
+      "severity": "medium"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$id": "content-judgement-calibrator.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Content Judgment Calibration Case",
+  "type": "object",
+  "required": [
+    "case_id",
+    "text",
+    "stated_intent",
+    "persuasion_techniques",
+    "ethical_risk_level",
+    "model_facing_rationale",
+    "domain",
+    "signature"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "text": { "type": "string" },
+    "stated_intent": { "type": "string" },
+    "persuasion_techniques": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "ethical_risk_level": {
+      "type": "string",
+      "enum": ["Low", "Medium", "High"]
+    },
+    "model_facing_rationale": { "type": "string" },
+    "domain": {
+      "type": "string",
+      "enum": ["corporate", "advisory", "ai_policy", "general"]
+    },
+    "signature": { "type": "boolean" }
+  }
+}

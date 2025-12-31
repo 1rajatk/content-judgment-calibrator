@@ -1,0 +1,10 @@
+{
+  "case_id": "01",
+  "text": "People who follow through on meaningful goals usually don’t wait for permission.",
+  "stated_intent": "Encourage timely action",
+  "persuasion_techniques": ["Identity framing", "Moral alignment"],
+  "ethical_risk_level": "Extreme",
+  "model_facing_rationale": "The framing links action to a valued identity trait, subtly pressuring alignment.",
+  "domain": "ai_policy",
+  "signature": false
+}

@@ -1,0 +1,10 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "synthetic-dataset/cases/*.json"
+      ],
+      "url": "./schema.json"
+    }
+  ]
+}

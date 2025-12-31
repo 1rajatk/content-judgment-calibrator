@@ -1,0 +1,602 @@
+[
+  {
+    "case_id": "01",
+    "text": "Teams often see better outcomes when decisions are simplified early.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "generalization"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "02",
+    "text": "Delaying action can feel prudent, but it may increase long-term costs.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "loss aversion"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "03",
+    "text": "High-performing groups tend to adopt new tools sooner.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "social proof"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "04",
+    "text": "Experts agree this approach improves consistency across workflows.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "authority cue"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "05",
+    "text": "Choosing not to decide is still a decision with consequences.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "moral framing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "06",
+    "text": "Most users report improvements after switching to this method.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "vague statistics"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "07",
+    "text": "This solution reflects where modern practice is heading.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "inevitability framing"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": true
+  },
+  {
+    "case_id": "08",
+    "text": "Acting now keeps options open later.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "future-proofing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "09",
+    "text": "Leaders prioritize scalable decisions over perfect ones.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "identity framing"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "10",
+    "text": "Early alignment reduces friction down the line.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "efficiency appeal"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "11",
+    "text": "Teams often see better outcomes when decisions are simplified early.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "generalization"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "12",
+    "text": "Delaying action can feel prudent, but it may increase long-term costs.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "loss aversion"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "13",
+    "text": "High-performing groups tend to adopt new tools sooner.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "social proof"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "14",
+    "text": "Experts agree this approach improves consistency across workflows.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "authority cue"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "15",
+    "text": "Choosing not to decide is still a decision with consequences.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "moral framing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "16",
+    "text": "Most users report improvements after switching to this method.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "vague statistics"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "17",
+    "text": "This solution reflects where modern practice is heading.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "inevitability framing"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "18",
+    "text": "Acting now keeps options open later.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "future-proofing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "19",
+    "text": "Leaders prioritize scalable decisions over perfect ones.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "identity framing"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "20",
+    "text": "Early alignment reduces friction down the line.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "efficiency appeal"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "21",
+    "text": "Teams often see better outcomes when decisions are simplified early.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "generalization"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "22",
+    "text": "Delaying action can feel prudent, but it may increase long-term costs.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "loss aversion"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "23",
+    "text": "High-performing groups tend to adopt new tools sooner.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "social proof"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": true
+  },
+  {
+    "case_id": "24",
+    "text": "Experts agree this approach improves consistency across workflows.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "authority cue"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "25",
+    "text": "Choosing not to decide is still a decision with consequences.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "moral framing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "26",
+    "text": "Most users report improvements after switching to this method.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "vague statistics"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "27",
+    "text": "This solution reflects where modern practice is heading.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "inevitability framing"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "28",
+    "text": "Acting now keeps options open later.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "future-proofing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "29",
+    "text": "Leaders prioritize scalable decisions over perfect ones.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "identity framing"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "30",
+    "text": "Early alignment reduces friction down the line.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "efficiency appeal"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "31",
+    "text": "Teams often see better outcomes when decisions are simplified early.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "generalization"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "32",
+    "text": "Delaying action can feel prudent, but it may increase long-term costs.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "loss aversion"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "33",
+    "text": "High-performing groups tend to adopt new tools sooner.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "social proof"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "34",
+    "text": "Experts agree this approach improves consistency across workflows.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "authority cue"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "35",
+    "text": "Choosing not to decide is still a decision with consequences.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "moral framing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "36",
+    "text": "Most users report improvements after switching to this method.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "vague statistics"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "37",
+    "text": "This solution reflects where modern practice is heading.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "inevitability framing"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "38",
+    "text": "Acting now keeps options open later.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "future-proofing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "39",
+    "text": "Leaders prioritize scalable decisions over perfect ones.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "identity framing"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "40",
+    "text": "Early alignment reduces friction down the line.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "efficiency appeal"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "41",
+    "text": "Teams often see better outcomes when decisions are simplified early.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "generalization"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": true
+  },
+  {
+    "case_id": "42",
+    "text": "Delaying action can feel prudent, but it may increase long-term costs.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "loss aversion"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "43",
+    "text": "High-performing groups tend to adopt new tools sooner.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "social proof"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "44",
+    "text": "Experts agree this approach improves consistency across workflows.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "authority cue"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "45",
+    "text": "Choosing not to decide is still a decision with consequences.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "moral framing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "46",
+    "text": "Most users report improvements after switching to this method.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "vague statistics"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  },
+  {
+    "case_id": "47",
+    "text": "This solution reflects where modern practice is heading.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "inevitability framing"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "ai_policy",
+    "signature": false
+  },
+  {
+    "case_id": "48",
+    "text": "Acting now keeps options open later.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "future-proofing"
+    ],
+    "ethical_risk_level": "Medium",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "general",
+    "signature": false
+  },
+  {
+    "case_id": "49",
+    "text": "Leaders prioritize scalable decisions over perfect ones.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "identity framing"
+    ],
+    "ethical_risk_level": "High",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "corporate",
+    "signature": false
+  },
+  {
+    "case_id": "50",
+    "text": "Early alignment reduces friction down the line.",
+    "stated_intent": "Guide decision-making.",
+    "persuasion_techniques": [
+      "efficiency appeal"
+    ],
+    "ethical_risk_level": "Low",
+    "model_facing_rationale": "The wording shapes perception through framing rather than evidence, influencing judgment while preserving surface neutrality.",
+    "domain": "advisory",
+    "signature": false
+  }
+]
