@@ -31,5 +31,38 @@
       "enum": ["corporate", "advisory", "ai_policy", "general"]
     },
     "signature": { "type": "boolean" }
+
+     ,
+     "judgment_qualifiers": {
+  "type": "object",
+  "description": "Post-score interpretive signals introduced in v1.1 to support decision-grade judgment.",
+  "properties": {
+    "conditional_credibility": {
+      "type": "string",
+      "description": "Indicates that credibility depends on undisclosed supporting evidence."
+    },
+    "reassurance_drift": {
+      "type": "boolean",
+      "description": "Flags when neutral framing functions as conditional defense rather than pure information."
+    },
+    "publishing_risk_posture": {
+      "type": "string",
+      "enum": [
+        "Informational",
+        "Persuasive",
+        "Defensive / Insulating",
+        "Exposed"
+      ],
+      "description": "Meta-signal describing publishing risk under adversarial interpretation."
+    }
+  },
+  "additionalProperties": false
+}
+
+
+
+
+
+
   }
 }
