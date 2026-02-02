@@ -3,6 +3,9 @@ Release: v1.0 (dataset, scoring logic, and canonical demo frozen)
 
 A judgment-first evaluation system that assesses whether content holds together across clarity, credibility, and intent alignment.
 
+
+🎥 **90-Second Demo**: https://youtu.be/Cbta8m5wvo4?si=Uld7_sBGlcWMqft2
+
 This project is not a content checker or rewriter.
 It is a calibration framework designed to surface judgment drift in persuasive, informational, and mixed-intent content.
 
