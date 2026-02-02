@@ -72,6 +72,67 @@ Acceptable ambiguity or edge tension that warrants attention, not correction.
 Fail (Intentional Miscalibration)
 Controlled examples where ethical risk is over- or under-stated to test detection sensitivity.
 
+---
+
+## v1.1 Calibration Enhancements (Interpretive Layer)
+
+Version 1.1 introduces **judgment qualifiers** that improve alignment with
+real-world editorial and publishing decisions.
+
+These enhancements do **not** change scoring logic.
+They clarify how scores and flags should be interpreted
+when content is read under scrutiny or adversarial conditions.
+
+### Conditional Credibility
+
+In some documents, claims of governance, oversight, or control are
+expressed conservatively and without overt persuasion, but are not
+accompanied by observable outcomes, enforcement history, or corrective examples.
+
+In such cases:
+- Credibility scores may appear strong
+- But credibility should be treated as **conditional on undisclosed evidence**
+
+This condition is now surfaced explicitly in diagnostics.
+
+### Reassurance Drift
+
+CJC v1.1 detects when neutral or non-admissive language functions
+as **strategic reassurance**, rather than purely informational framing.
+
+This may occur when:
+- Tone remains cautious and neutral
+- Specifics are intentionally abstracted
+- Forward-looking caveats limit accountability
+
+Such patterns are flagged as **reassurance drift**.
+This does not imply manipulation, but signals **defensive positioning**.
+
+### Publishing Risk Posture (Meta-Signal)
+
+In addition to Clarity, Credibility, and Intent Alignment,
+CJC v1.1 surfaces a non-scored **Publishing Risk Posture** label:
+
+- Informational
+- Persuasive
+- Defensive / Insulating
+- Exposed
+
+This label reflects how content may be interpreted
+if published or cited outside its intended context.
+
+### Important Scope Note
+
+These enhancements:
+- Do not introduce a new evaluation dimension
+- Do not enforce compliance or legal sufficiency
+- Do not recommend rewrites or optimizations
+
+They exist solely to improve **decision-grade interpretation**
+of existing CJC judgments.
+
+---
+
 Demo Mode (Current)
 
 At present, the calibrator is demonstrated via:
