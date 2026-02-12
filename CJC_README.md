@@ -77,7 +77,7 @@ Controlled examples where ethical risk is over- or under-stated to test detectio
 
 ---
 
-## v1.1 Calibration Enhancements (Interpretive Layer)
+## Calibration Enhancements (Interpretive Layer)
 
 Version 1.1 introduces **judgment qualifiers** that improve alignment with
 real-world editorial and publishing decisions.
@@ -100,7 +100,7 @@ This condition is now surfaced explicitly in diagnostics.
 
 ### Reassurance Drift
 
-CJC v1.1 detects when neutral or non-admissive language functions
+CJC detects when neutral or non-admissive language functions
 as **strategic reassurance**, rather than purely informational framing.
 
 This may occur when:
